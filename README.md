@@ -4,14 +4,14 @@ A very minimal TFTP server running on Alpine 3.6 in a Docker container to serve 
 
 Git Repo: https://github.com/rjocoleman/docker-netboot.xyz
 
-Docker Hub: https://hub.docker.com/r/rjocoleman/netboot.xyz/
+Docker Hub: https://hub.docker.com/r/thereapsz/docker-netboot.xyz
 
 ## Usage
 
 Run the docker container:
 
 ```shell
-docker run -p 69:69/udp rjocoleman/netboot.xyz
+docker run -p 69:69/udp thereapsz/docker-netboot.xyz
 
 # OR
 
@@ -19,7 +19,16 @@ docker create \
  --name=netboot.xyz \
  --restart=always \
  -p 69:69/udp \
- rjocoleman/netboot.xyz
+ thereapsz/docker-netboot.xyz
+ 
+ # OR
+ 
+ docker run -itd \
+ --restart always \
+ --name=netboot.xyz \
+ --restart=always \
+ -p 69:69/udp \
+ thereapsz/docker-netboot.xyz
 ```
 
 Set your DHCP options (standard PXE boot stuff):
