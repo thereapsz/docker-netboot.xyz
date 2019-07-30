@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM armhf/alpine:3.5
 
 RUN apk --update add --no-cache tftp-hpa; \
  mkdir -p /tftpboot;
