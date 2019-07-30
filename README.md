@@ -1,10 +1,9 @@
 # Docker Netboot.xyz
 
-A very minimal TFTP server running on Alpine 3.6 in a Docker container to serve [Netboot.xyz](https://netboot.xyz).
+A very minimal TFTP server running on Alpine 3.5 in a Docker container to serve [Netboot.xyz](https://netboot.xyz).
 
 Git Repo: https://github.com/rjocoleman/docker-netboot.xyz
 
-Docker Hub: https://hub.docker.com/r/thereapsz/docker-netboot.xyz
 
 ## Usage
 
